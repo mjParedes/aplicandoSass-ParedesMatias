@@ -1,0 +1,12 @@
+//LAYOUT CON GRID
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'section'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}

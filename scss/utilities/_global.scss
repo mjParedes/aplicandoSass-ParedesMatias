@@ -1,0 +1,26 @@
+//RESET Y CONFIG GLOBLAL DEL PROYECTO
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Averia Sans Libre', cursive;
+    font-size:15px;
+    text-align: center;
+    height:100%;
+    width:100%;
+}
+
+.grid-container >*{
+    border: 1px solid #000000;
+}
+
+.container-btn > *{
+    margin: 20px;
+}
+
+
+

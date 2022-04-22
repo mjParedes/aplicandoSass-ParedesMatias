@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <!--importo fuentes externas-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital@0;1&display=swap" rel="stylesheet">
+    
+    <!--link estilos css-->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <title>Final</title>
+</head>
+<body>
+  <div class="grid-container">
+    <header>
+      <nav>
+        <ul>
+          <li class="logo-nav">
+            <a href="../index.html">TrAvElErS.cOm</a></li>
+          <li>
+            <a href="aboutUs.html">About Us</a></li>
+          <li>
+            <a href="media.html">Media</a></li>
+          <li>
+            <a href="shop.html">Shop</a></li>
+          <li>
+            <a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h1 class="titulo-header">TrAvElErS.cOm</h1>
+      <i>
+        <img class="logo-header" src="../img/logoWeb.png" alt="">
+      </i>
+    </header>
+  
+    <main>
+      <div class="portada-media">
+        <img src="../img/media.png" alt="">
+      </div>
+
+      <!--Utilizo bootstrap para galeria de imagenes-->
+      <h2 id="carrusel-1">Destinos In-Season</h2>
+      
+      <div id="carouselExampleCaptions" class="carousel slide mb-6 " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/img01.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/img02.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/img03.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h2 id="carrusel-2">Destinos Off-Season</h2>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/eiffel.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/img-07.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/img10.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <section>
+        <h3>Material Alternartivo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa molestiae quos ipsam, quae placeat, nobis dolorem quaerat ratione eius reiciendis libero officia porro. Qui voluptatibus eaque dolores pariatur incidunt ab vero excepturi. Repudiandae dolorem eaque sed enim modi possimus asperiores commodi voluptatum reiciendis repellat similique, quae odit quia odio repellendus, tempora tenetur numquam voluptates autem alias. Laborum assumenda recusandae doloremque.</p>
+    </section>
+  
+    <footer>
+      <p>Todos los derechos reservados MJP Developments-Powered by American Airlines.Corp</p>
+      <p>Seguinos en nuestras redes</p>
+      <div class="redes-footer">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="../img/facebook.png" alt="">
+        </a>
+        <a href="https://github.com/" target="_blank">
+          <img src="../img/github.png" alt="">
+        </a>
+        <a href="https://ar.linkedin.com
+        " target="_blank">
+          <img src="../img/linkedin.png" alt="">
+        </a>
+        <a href="https://www.instagram.com
+        " target="_blank">
+          <img src="../img/instagram.png" alt="">
+        </a>
+      </div>
+    </footer>
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+  </div>
+    
+</body>
+</html>
